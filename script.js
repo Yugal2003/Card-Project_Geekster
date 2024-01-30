@@ -9,6 +9,7 @@ const btn2 = document.querySelector("#dark");
 const userCard = document.querySelector(".userCard");
 
 form.addEventListener('submit' , function(event){
+    
     event.preventDefault();
     
     const name =  nameInput.value;//console.log(name);
